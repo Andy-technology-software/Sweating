@@ -81,6 +81,8 @@
 		F8A67C7B209FE0C600760934 /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A67C73209FE0C500760934 /* RDVTabBarController.m */; };
 		F8A67C7C209FE0C600760934 /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A67C75209FE0C500760934 /* RDVTabBarItem.m */; };
 		F8A67C7D209FE0C600760934 /* LoginPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A67C79209FE0C500760934 /* LoginPageViewController.m */; };
+		F8A67C87209FF62400760934 /* HomepageIndex0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A67C86209FF62400760934 /* HomepageIndex0TableViewCell.m */; };
+		F8A67C8A209FF63800760934 /* HomepageIndex0Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A67C89209FF63800760934 /* HomepageIndex0Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,6 +243,10 @@
 		F8A67C75209FE0C500760934 /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
 		F8A67C78209FE0C500760934 /* LoginPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPageViewController.h; sourceTree = "<group>"; };
 		F8A67C79209FE0C500760934 /* LoginPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPageViewController.m; sourceTree = "<group>"; };
+		F8A67C85209FF62400760934 /* HomepageIndex0TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomepageIndex0TableViewCell.h; sourceTree = "<group>"; };
+		F8A67C86209FF62400760934 /* HomepageIndex0TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepageIndex0TableViewCell.m; sourceTree = "<group>"; };
+		F8A67C88209FF63800760934 /* HomepageIndex0Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomepageIndex0Model.h; sourceTree = "<group>"; };
+		F8A67C89209FF63800760934 /* HomepageIndex0Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepageIndex0Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -634,6 +640,7 @@
 		F8A67C4E209FD88F00760934 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F8A67C83209FF60E00760934 /* Homepage */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -709,6 +716,7 @@
 		F8A67C59209FDF8E00760934 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F8A67C7E209FF5CA00760934 /* Homepage */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -741,6 +749,40 @@
 				F8A67C79209FE0C500760934 /* LoginPageViewController.m */,
 			);
 			path = LoginPage;
+			sourceTree = "<group>";
+		};
+		F8A67C7E209FF5CA00760934 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				F8A67C7F209FF5D600760934 /* HomepageIndex */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		F8A67C7F209FF5D600760934 /* HomepageIndex */ = {
+			isa = PBXGroup;
+			children = (
+				F8A67C88209FF63800760934 /* HomepageIndex0Model.h */,
+				F8A67C89209FF63800760934 /* HomepageIndex0Model.m */,
+			);
+			path = HomepageIndex;
+			sourceTree = "<group>";
+		};
+		F8A67C83209FF60E00760934 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				F8A67C84209FF61700760934 /* HomepageIndex */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		F8A67C84209FF61700760934 /* HomepageIndex */ = {
+			isa = PBXGroup;
+			children = (
+				F8A67C85209FF62400760934 /* HomepageIndex0TableViewCell.h */,
+				F8A67C86209FF62400760934 /* HomepageIndex0TableViewCell.m */,
+			);
+			path = HomepageIndex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -956,7 +998,9 @@
 				F8A67C7B209FE0C600760934 /* RDVTabBarController.m in Sources */,
 				F8A67C68209FDFDE00760934 /* AppDelegate+AppService.m in Sources */,
 				F8A67C2C209FD85200760934 /* AnimatedDotView.m in Sources */,
+				F8A67C8A209FF63800760934 /* HomepageIndex0Model.m in Sources */,
 				F8A67C4B209FD85200760934 /* XRQJPush.m in Sources */,
+				F8A67C87209FF62400760934 /* HomepageIndex0TableViewCell.m in Sources */,
 				F8A67C36209FD85200760934 /* LTSCalendarManager.m in Sources */,
 				F8A67B7A209FD56900760934 /* main.m in Sources */,
 				F8A67C3B209FD85200760934 /* UITextView+placeholder.m in Sources */,
